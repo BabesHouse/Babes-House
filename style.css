@@ -228,7 +228,7 @@ font-family: Tahoma, Arial, sans-serif;
 }
 
 .large-copy {
-  font-family: "Arial", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: clamp(2rem, 4vw, 3.2rem);
   line-height: 1.15;
 }
