@@ -231,6 +231,8 @@ font-family: Tahoma, Arial, sans-serif;
   font-family: Arial, sans-serif;
   font-size: clamp(1.4rem, 3vw, 2.3rem);
   line-height: 1.15;
+}
+
 .about-copy,
 .contact-copy {
   color: #35524A;
