@@ -229,7 +229,7 @@ font-family: Tahoma, Arial, sans-serif;
 
 .large-copy {
   font-family: Arial, sans-serif;
-  font-size: clamp(1.9rem, 3.8vw, 3rem);
+  font-size: clamp(1.6rem, 3.2vw, 2.6rem);
   line-height: 1.15;
 }
 
