@@ -19,7 +19,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-font-family: "DM Sans", Arial, sans-serif;
+  font-family: "DM Sans", Arial, sans-serif;
   line-height: 1.6;
 }
 
@@ -54,7 +54,9 @@ nav a {
 }
 
 nav a:hover,
-.text-link:hover { color: var(--accent); }
+.text-link:hover {
+  color: var(--accent);
+}
 
 .hero {
   max-width: var(--max);
@@ -83,11 +85,12 @@ h1, h2, h3 {
 .hero h1,
 .page-hero h1 {
   max-width: 900px;
-font-family: Tahoma, Arial, sans-serif;
+  font-family: Tahoma, Arial, sans-serif;
   font-size: clamp(3.7rem, 8vw, 8rem);
   font-weight: 500;
   letter-spacing: -.045em;
 }
+
 .page-hero h1 {
   margin-left: -10px;
   text-align: center;
@@ -128,7 +131,7 @@ font-family: Tahoma, Arial, sans-serif;
 }
 
 h2 {
-font-family: Tahoma, Arial, sans-serif;
+  font-family: Tahoma, Arial, sans-serif;
   font-size: clamp(3rem, 6vw, 5.5rem);
   font-weight: 500;
   letter-spacing: -.035em;
@@ -164,7 +167,7 @@ font-family: Tahoma, Arial, sans-serif;
 }
 
 .day {
-font-family: Tahoma, Arial, sans-serif;
+  font-family: Tahoma, Arial, sans-serif;
   font-size: 4rem;
   line-height: 1;
 }
@@ -179,7 +182,7 @@ font-family: Tahoma, Arial, sans-serif;
 }
 
 .event-info h3 {
-font-family: Tahoma, Arial, sans-serif;
+  font-family: Tahoma, Arial, sans-serif;
   font-size: 2.1rem;
   font-weight: 500;
 }
@@ -209,16 +212,15 @@ font-family: Tahoma, Arial, sans-serif;
 
 .statement p {
   margin: 0;
-font-family: Tahoma, Arial, sans-serif;
+  font-family: Tahoma, Arial, sans-serif;
   font-size: clamp(3rem, 7vw, 7rem);
   line-height: 1;
   font-style: italic;
 }
+
 .page-hero {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 150px 28px 110px;
-}
   padding: 150px 28px 110px;
 }
 
@@ -270,7 +272,6 @@ font-family: Tahoma, Arial, sans-serif;
   grid-row: 8;
   align-self: center;
   margin-top: 8px;
-}
 }
 
 .contact-detail {
