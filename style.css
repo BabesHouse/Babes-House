@@ -243,10 +243,13 @@ font-family: Tahoma, Arial, sans-serif;
 }
 
 .contact-layout form {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  column-gap: 20px;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-layout form button {
+  align-self: center;
+  margin-top: 8px;
 }
 
 .contact-layout form label,
