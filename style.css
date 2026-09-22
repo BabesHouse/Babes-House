@@ -93,9 +93,8 @@ h1, h2, h3 {
 
 .page-hero h1 {
   margin-left: -10px;
-  text-align: center;
+  text-align: left;
 }
-
 .hero-copy {
   max-width: 540px;
   margin: 34px 0;
