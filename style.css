@@ -247,29 +247,12 @@ h2 {
 
 .content-narrow p {
   margin: 0 0 28px;
-}
-
 .contact-layout form {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  column-gap: 20px;
-  align-items: center;
-}
-
-.contact-layout form label,
-.contact-layout form input,
-.contact-layout form textarea,
-.contact-layout form #form-status {
-  grid-column: 1;
-}
-
-.contact-layout form textarea {
-  grid-row: 8;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-layout form button {
-  grid-column: 2;
-  grid-row: 8;
   align-self: center;
   margin-top: 8px;
 }
