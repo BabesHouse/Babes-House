@@ -253,12 +253,14 @@ h2 {
   display: block;
 }
 
-.contact-layout form button {
-  display: block;
-  position: static;
-  float: none;
-  clear: both;
-  margin: 8px auto 0
+.contact-submit {
+  width: 100%;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.contact-submit .button {
+  display: inline-block;
 }
 
 .contact-detail {
