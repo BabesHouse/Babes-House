@@ -244,9 +244,10 @@ font-family: Tahoma, Arial, sans-serif;
 
 .contact-layout .button {
   margin-top: 8px;
-  .contact-layout form button {
-  align-self: center;
 }
+
+.contact-layout form button {
+  align-self: center;
 }
 
 .contact-detail {
