@@ -262,6 +262,9 @@ h2 {
 .contact-submit .button {
   display: inline-block;
 }
+.contact-submit .button {
+  display: inline-block;
+}
 
 .contact-detail {
   margin-top: 80px;
