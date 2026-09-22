@@ -249,21 +249,22 @@ h2 {
 }
 
 .contact-layout form {
-  display: flex;
-  flex-direction: column;
+  .contact-layout form {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .contact-layout form button {
-  align-self: center;
+  grid-column: 1;
+  grid-row: 9;
+  justify-self: center;
   margin-top: 8px;
-  order: 10;
-}
 }
 
-.contact-detail {
-  margin-top: 80px;
-  padding-top: 28px;
-  border-top: 1px solid var(--line);
+.contact-layout form #form-status {
+  grid-column: 1;
+  grid-row: 10;
+}
 }
 
 .site-footer {
