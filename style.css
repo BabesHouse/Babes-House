@@ -214,10 +214,11 @@ font-family: Tahoma, Arial, sans-serif;
   line-height: 1;
   font-style: italic;
 }
-
 .page-hero {
   max-width: var(--max);
   margin: 0 auto;
+  padding: 150px 28px 190px;
+}
   padding: 150px 28px 110px;
 }
 
