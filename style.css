@@ -90,6 +90,7 @@ font-family: Tahoma, Arial, sans-serif;
 }
 .page-hero h1 {
   margin-left: -10px;
+  text-align: center;
 }
 
 .hero-copy {
