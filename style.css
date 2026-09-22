@@ -247,6 +247,8 @@ h2 {
 
 .content-narrow p {
   margin: 0 0 28px;
+}
+
 .contact-layout form {
   display: flex;
   flex-direction: column;
@@ -255,6 +257,7 @@ h2 {
 .contact-layout form button {
   align-self: center;
   margin-top: 8px;
+}
 }
 
 .contact-detail {
