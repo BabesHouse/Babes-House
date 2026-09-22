@@ -250,13 +250,15 @@ h2 {
 }
 
 .contact-layout form {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 .contact-layout form button {
-  align-self: center;
-  margin-top: 8px;
+  display: block;
+  position: static;
+  float: none;
+  clear: both;
+  margin: 8px auto 0
 }
 }
 
