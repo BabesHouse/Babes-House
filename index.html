@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Babes House is an event space in Tucson, Arizona for date nights, dinner parties, and dancing.">
   <title>Babe's House | Tucson, AZ</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <header class="site-header">
@@ -22,7 +22,7 @@
       <p class="eyebrow">Tucson, Arizona</p>
       <h1>a house for <br>gathering.</h1>
       <p class="hero-copy">Date nights, dinner parties, and other good reasons to get together.</p>
-      <a class="button" href="#upcoming">See upcoming events</a>
+    <a class="button" href="#upcoming" onclick="document.getElementById('upcoming').scrollIntoView({behavior: 'smooth'}); return false;">See upcoming events</a>
     </section>
 
     <section id="upcoming" class="section events-section">
