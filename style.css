@@ -225,7 +225,7 @@ h2 {
 .page-hero {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 150px 28px 45px;
+  padding: 150px 28px 0;
 }
 
 .content-section {
