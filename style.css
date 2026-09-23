@@ -231,7 +231,7 @@ h2 {
 .content-section {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 20px 28px 130px;
+  padding: 14px 28px 130px;
 }
 
 .content-narrow {
