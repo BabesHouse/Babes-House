@@ -98,7 +98,7 @@ h1, h2, h3 {
 .hero-copy {
   max-width: 540px;
   margin: 34px 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--muted);
 }
 
@@ -240,7 +240,7 @@ h2 {
 
 .large-copy {
   font-family: Arial, sans-serif;
-  font-size: clamp(1.4rem, 3vw, 2.3rem);
+  font-size: 1rem;
   line-height: 1.15;
 }
 
