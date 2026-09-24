@@ -221,7 +221,7 @@ h2 {
 .page-hero {
   max-width: var(--max);
   margin: 0 auto;
-  padding: 150px 28px 45px;
+  padding: 150px 28px 14px;
 }
 
 .content-section {
@@ -254,14 +254,6 @@ h2 {
 .contact-copy {
   color: #35524A;
   margin: 0 0 34px;
-}
-.contact-copy.large-copy {
-  display: block;
-  width: 700px;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
 }
 .contact-copy.large-copy {
   display: block;
