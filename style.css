@@ -256,7 +256,8 @@ h2 {
 }
 .contact-copy.large-copy {
   display: block;
-  width: fit-content;
+  width: 700px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
