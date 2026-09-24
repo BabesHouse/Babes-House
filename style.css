@@ -63,14 +63,17 @@ nav {
 
 nav a {
   display: inline-block;
-  color: var(--ink);
-  text-decoration: none;
-  font-size: .9rem;
-  font-weight: 500;
+  .hero {
+  max-width: var(--max);
+  min-height: 680px;
+  margin: 0 auto;
+  padding: 120px 28px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
 }
-nav a {
-  display: inline-block;
-  color: var(--ink);
   text-decoration: none;
   font-size: .9rem;
   font-weight: 500;
