@@ -252,11 +252,7 @@ h2 {
 .about-copy,
 .contact-copy {
   color: #35524A;
-  margin: 0 0 14px;
-}
-.about-copy + .about-copy,
-.contact-copy + .contact-copy {
-  margin-top: 14px;
+  margin: 0 0 34px;
 }
 .contact-copy.large-copy {
   display: block;
