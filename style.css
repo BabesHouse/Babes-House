@@ -241,6 +241,11 @@ h2 {
   text-align: center;
 }
 
+.about-copy:not(.large-copy),
+.contact-copy:not(.large-copy) {
+  text-align: left;
+}
+
 .about-copy,
 .contact-copy {
   color: #35524A;
